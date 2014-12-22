@@ -1,0 +1,6 @@
+# bash -c "/home/alkp/Documents/genymotion/player --vm-name 'eb99f1fe-eb8a-43b0-b51d-66d3c4428f54'"
+# bash -c "sleep 1m; pm-suspend"
+reportHtml="/home/alkp/projects_testing/testingInMovement/html/scenario01/step2.html"
+command="calabash-android run analytics.apk features/step01_02.feature -f html -o ${reportHtml}"
+
+bash -c "$command"
