@@ -1,6 +1,6 @@
 
 user="alkp"
-serverNum="21"
+serverNum="68"
 command="emulator -avd Nexus7"
 
 run="/usr/bin/xvfb-run --server-num=${serverNum} -f /tmp/${user}.xvfb.auth -s '-screen 0 1280x900x24 -auth /tmp/${user}.xvfb.auth' $command"
